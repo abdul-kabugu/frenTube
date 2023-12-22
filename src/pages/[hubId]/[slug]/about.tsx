@@ -32,7 +32,7 @@ export const getStaticProps = getCommonStaticProps<AppCommonProps>(
         image = content?.image ? getIpfsContentUrl(content?.image) : ''
       }
     } catch (err) {
-      console.error('Error fetching for chat about page: ', err)
+      console.error('Error fetching for channel about page: ', err)
     }
 
     return {

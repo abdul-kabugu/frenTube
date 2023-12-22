@@ -44,7 +44,7 @@ const modalHeader: ModalConfig = {
     desc: (
       <span className='flex flex-col'>
         <span>
-          To access GrillChat, you need a Grill secret key. If you do not have
+          To access Frentube, you need a Frentube secret key. If you do not have
           one, just write your first chat message, and you will be given one.
         </span>
         <InfoPanel className='mt-4'>
