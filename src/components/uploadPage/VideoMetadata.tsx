@@ -34,7 +34,7 @@ export default function VideoMetadata({ videoFile, setVideoFile }: any) {
   const [isNotCreated, setisNotCreated] = useState(false)
   const [isVideoUploaded, setisVideoUploaded] = useState()
   const [coverCID, setcoverCID] = useState()
-  const [hubId, sethubId] = useState('1508')
+  const [hubId, sethubId] = useState('1582')
   const { uploadToIpfs, isUploading, isUploadingError } = usePinToIpfs()
   const {
     selectedVideo,

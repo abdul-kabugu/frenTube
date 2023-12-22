@@ -228,13 +228,16 @@ export default function Navbar({
               </div>
 
               <div className='flex items-center gap-2'>
-                <Link href={`/upload`}>
-                  <Button className='flex items-center gap-2'>
-                    <BsPlus size={20} />
-                    <span>Create</span>
-                  </Button>
-                </Link>
-                {notificationBell}
+                {isLoggedIn && (
+                  <Link href={`/upload`}>
+                    <Button className='flex items-center gap-2'>
+                      <BsPlus size={20} />
+                      <span>Create</span>
+                    </Button>
+                  </Link>
+                )}
+
+                {/*notificationBell*/}
                 {authComponent}
               </div>
             </div>
